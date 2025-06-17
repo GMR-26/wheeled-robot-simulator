@@ -1,0 +1,16 @@
+{
+  "name": "wheeled-robot-simulator",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "@types/matter-js": "^0.19.8",
+    "parcel": "^2.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "matter-js": "^0.19.0"
+  }
+}
